@@ -1,0 +1,26 @@
+{
+  "name": "videochat",
+  "version": "1.0.0",
+  "description": "\"video chat between 2 pepole useing simple-peer\"",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "keywords": [
+    "nodejs",
+    "Express",
+    "Socket-io",
+    "Simple-peer"
+  ],
+  "author": "Dhirendra Kumavat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-peer": "^9.7.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}
